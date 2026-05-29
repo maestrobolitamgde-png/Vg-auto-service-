@@ -1,0 +1,16 @@
+{
+  "name": "vg-auto-service",
+  "version": "1.0.0",
+  "description": "VG Auto Service Staff Control",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1"
+  }
+}
